@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.light-bulb-on {
+  background: url(./light-bulb-on.svg);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.light-bulb-of {
+  background: url(./light-bulb-off.svg);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.container-example {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: blue;
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 300px;
+  min-height: 200px;
+}
