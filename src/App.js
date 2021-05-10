@@ -2,7 +2,9 @@ import {useState} from "react"
 import Counter from "./Counter"
 import Bulb from "./Bulb"
 import Input from "./Input"
+import Input2 from "./Input2"
 import AngleCalculator from "./AngleCalculator"
+import CalculatorContainer from "./CalculatorContainer"
 import './App.css';
 
 
@@ -40,8 +42,21 @@ function App() {
 
 
 
+        <div>
+          <h5>
+            Input2: <Input2 />
+          </h5>
+        </div>
+
+
+        <div>
+          <h5>
+            Calculator: <CalculatorContainer />
+          </h5>
+        </div>
+
         
-  
+
       </header>
     </div>
   );

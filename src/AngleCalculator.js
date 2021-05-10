@@ -3,8 +3,8 @@ import { useState } from 'react'
 const AngleCalculator = () => {
 
     
-    const [radian, setRadian] = useState(0)
-    const [grades, setGrades] = useState(0)
+    const [radian, setRadian] = useState(null)
+    const [grades, setGrades] = useState(null)
 
     //   con esta funcion cambiare los datos de grados
     const handleGrades = (e) => {
@@ -17,8 +17,8 @@ const AngleCalculator = () => {
 
     const resetInput = () => {
 
-        setRadian(0)
-        setGrades(0)
+        setRadian(null)
+        setGrades(null)
         
     };
 
